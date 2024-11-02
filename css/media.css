@@ -1,0 +1,60 @@
+/*DOCUMENTO CSS*/
+
+* { margin: 0;
+    padding: 0;}
+
+section, div { box-sizing: border-box;}    
+
+h4 { color: whitesmoke;
+     font-family: "Roboto", sans-serif;
+     font-size: 2.5em;
+     text-align: center;
+     padding-top: 220px;
+     text-shadow: 0px 0px 4px black;}
+
+.container { width: 100%; 
+             margin: auto; 
+             display: flex;
+             flex-flow: wrap row;
+             justify-content: space-between;
+             align-items:flex-start ;}
+
+.items { background-color: orange; 
+         height: 350px;
+         width: 100%;
+         background-size: 130% 100%;
+         background-repeat: no-repeat;
+         background-position: center centers;}
+
+.primero { background-image: url(https://picsum.photos/id/1/300/200);}
+.segundo { background-image: url(https://picsum.photos/id/4/300/200);}
+.tercero { background-image: url(https://picsum.photos/id/7/300/200);}
+.cuarto { background-image: url(https://picsum.photos/id/20/300/200);}
+
+
+
+/*.segundo { align-self: flex-end;}*/         
+
+@media only screen and (min-width:560px) {  
+
+    .container { padding: 15px;}
+
+    .items { width: 49%;
+             height: 190px;} 
+    
+    h4 { font-size: 2em;
+         padding-top: 120px;}
+
+    .primero { margin-right: 1px; 
+               margin-bottom: 10px;}
+}
+@media only screen and (min-width:1280px) {
+    .container { width: 65%; 
+                 justify-content: space-around;}
+
+    .items { width: 24%; 
+             margin: 0px;
+             height: 170px;}
+
+    h4 { font-size: 1.7em; }        
+}

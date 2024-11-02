@@ -1,0 +1,33 @@
+/*DOCUMENTO CSS*/
+
+* { margin: 0;
+    padding: 0;}
+
+section, div { box-sizing: border-box;}    
+
+h4 { color: whitesmoke;
+     font-family: "Roboto", sans-serif;
+     font-size: 1.5em;
+     text-align: center;
+     padding-top: 80px;
+     text-shadow: 0px 0px 4px black;}
+
+.container { width: 65%;  
+             margin: auto; 
+             padding: 15px;
+             display: flex;
+             flex-flow: wrap row;
+             justify-content: space-between;
+             align-items:flex-start ;}
+
+.items { background-color: orange; 
+         height: 140px;
+         width: 24%;
+         background-size: 100%;}
+
+.primero { background-image: url(https://picsum.photos/id/1/300/200);}
+.segundo { background-image: url(https://picsum.photos/id/4/300/200);}
+.tercero { background-image: url(https://picsum.photos/id/7/300/200);}
+.cuarto { background-image: url(https://picsum.photos/id/20/300/200);}
+
+/*.segundo { align-self: flex-end;}*/         

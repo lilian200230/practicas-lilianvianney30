@@ -1,0 +1,36 @@
+/*DOCUMENTO CSS*/
+*{margin: 0%;
+  padding: 0%;}
+
+
+header, main, div, nav, article {box-sizing: border-box;}
+
+/*ESPECIFIDAD DE SELECTORES*/
+
+h1{color: red;
+     padding: 15px 0px;
+    text-align: center;}
+
+header h1{color: rgb(253, 255, 253);
+          background-color: rgb(0, 128, 0);}
+
+/*ESPECIFICIDAD DE SELECTORES*/
+
+
+.lista { background-color: #dbf7db; 
+         width: 60%;
+         min-height: 1px; 
+         margin: 15px auto;
+         padding: 15px;
+         }
+         
+.relleno { padding-left: 30px;}
+
+.centrar {margin: auto;
+         display: block;
+         padding: 5px;}
+
+.cabecera {background: blueviolet;
+            padding: 15px 0px;}         
+
+

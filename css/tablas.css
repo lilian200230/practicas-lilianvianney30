@@ -1,0 +1,84 @@
+/**/
+* { margin: 0;
+    padding: 0;}
+
+body { font-family: "raleway", sans-serif;}
+
+section, header, footer, div, main {box-sizing: border-box;}
+
+
+h1 { background-color: rgba(245, 245, 245, 0.755); }
+
+.cabecera { background-color: brown;  
+            padding: 20px 0px;
+            margin-bottom: 25px; }
+
+
+.tablas { margin-bottom: 30px; 
+          width: 70%;
+          margin: 0px auto 30px auto;}
+
+
+.tablas table { margin: auto; 
+                background-color: brown;
+                width: 100% ; }
+
+
+.principal table { background: orange;}
+
+.contenido { width: 70%; 
+             margin: auto;}
+
+
+             .contenido p { padding: 20px 0px;
+                            line-height: 1.3;}
+
+
+
+.pie { height: 80px; 
+       background-color: burlywood;}
+
+.pie p { text-align: center; 
+         color: white;
+         font-weight: 700;
+         line-height: 10em;}
+
+.tablas tr:first-child { background-color:blueviolet;}
+
+.tablas tr:nth-child(3) { background-color:rgb(43, 49, 226);}
+
+.contenido a:link { color: brown; 
+                    text-decoration: none;}
+
+.contenido a:hover { color: aqua;}
+
+.contenido a:active { color: aqua;}
+
+.contenido a:focus { color: aqua;}
+
+.contenido p:nth-child(even) { color:blueviolet }
+
+.contenido p:nth-child(odd) { color:rgb(226, 43, 186) }
+
+.contenido p::first-letter { font-size: 5em; }
+
+p.hijo1::first-letter { font-size: 5em; 
+          float: left;
+          padding-bottom: 10px;
+          padding-right: 15px;}
+
+.contenido p::first-line {text-decoration: overline;}
+
+.contenido p::first-line {text-decoration: line-through;}
+
+.tres::before { content: "hola"; 
+                 display: block;
+                 width: 50px;
+                 height: 50px;
+                 background-image: url(/img/images.png);
+                 background-size: 100%;
+                 position: relative;
+                 left: -45px;
+                top: 20px;}
+
+

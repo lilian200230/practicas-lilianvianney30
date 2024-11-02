@@ -1,0 +1,34 @@
+/*DOCUMENTO CSS*/
+
+header { background-color: rgb(7, 58, 188);
+         font-family: sans-serif;
+         text-align: center;
+         color: bisque;
+         font-size: 2.6em;}
+
+h2 { background-color: brown;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: aliceblue;
+     font-size: 2em;}
+
+
+     
+.padre {display: flex;}
+.padre img { width: 400px;}
+
+body { background: radial-gradient(circle, rgba(63,218,251,1) 0%, rgba(106,70,252,1) 100%);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

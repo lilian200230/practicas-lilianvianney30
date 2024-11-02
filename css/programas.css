@@ -1,0 +1,68 @@
+/*DOCUMENTO CSS*/
+
+header h1 {color: rgb(245, 245, 245);
+           text-align: center;
+           background-color: rgb(4, 156, 141);
+           width: 90%;
+           min-height: 1px; 
+           margin: 20px auto;
+           padding: 30px;}
+
+/*eñe*/
+body { background-color: #12ccbf; 
+    font-family: "Oswald", sans-serif; }
+/*eñe*/
+.subtema { width: 100%;
+           min-height: 1px; 
+           margin: 15px auto;
+           padding: 15px;}
+
+/*eñe*/
+.primert { background-color: rgb(125, 209, 209);
+          width: 90%;
+          min-height: 1px; 
+          margin: 15px auto;
+          padding: 15px;}
+
+/*eñe*/
+.imagen1 { width: 40%;
+           margin: 15px;
+           padding: 15px;}
+
+/*eñe*/
+.segundot { background-color: rgb(125, 209, 209);
+    width: 90%;
+    min-height: 1px; 
+    margin: 15px auto;
+    padding: 15px;}
+
+/*eñe*/
+h3{ color: rgb(46, 46, 255);
+    width: 90%;
+    min-height: 1px;
+    margin: 15px;
+    padding: 15px 0px;} 
+
+/*eñe*/
+section p { background-color: rgb(125, 209, 209);
+    width: 90%;
+    min-height: 1px; 
+    margin: 15px auto;
+    padding: 15px;}
+
+/*eñe*/
+.imagen2 { width: 40%;
+    margin: 15px;
+    padding: 15px;}
+
+/*eñe*/
+
+
+/*eñe*/
+
+
+/*eñe*/
+
+
+/*eñe*/
+

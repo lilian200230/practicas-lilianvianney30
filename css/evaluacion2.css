@@ -1,0 +1,46 @@
+/*DOCUMENTO CSS EVALUACION2*/
+
+body { background: linear-gradient(180deg, rgba(105,126,255,1) 24%, rgba(128,213,254,0.9528186274509804) 74%);}
+
+
+header { background-color: blue;
+         color: bisque;
+         font-size: 1.4em;
+         font-family: sans-serif;
+         padding: 6px;
+         }
+
+h3 { font-family: sans-serif;}
+
+h4 { font-family: sans-serif;}
+
+p { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+.prin {display: flex;}
+
+.sec1 { background-color: aquamarine;
+        width: 890px;
+        padding: 2px 20px 2px;
+        margin: 2px 2px 2px;}
+
+.prin img { width: 300px;
+            padding: 18px;}
+
+.prin p { padding: 6px;
+          margin: 20px;}
+
+.form { padding: 6px;
+        margin: 20px;
+        background-color: blue;
+        width: 890px;}
+
+.unico { color: bisque;}        
+
+footer { text-align: center;
+         padding: 40px;
+         background-color: aqua;}
+
+
+
+
+
